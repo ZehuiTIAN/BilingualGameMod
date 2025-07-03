@@ -21,7 +21,7 @@ def merge_bilingual_subtitles(en_file, ch_file, output_file):
             merged_text = en_text
         else:
             # or merge them with a space in between
-            merged_text = f"{en_text} {ch_text}".strip()
+            merged_text = f"{en_text}({ch_text})".strip()
         
         merged_data["strings"][key] = merged_text
     
