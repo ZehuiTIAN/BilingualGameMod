@@ -1,0 +1,1 @@
+This is only a backup from https://www.nexusmods.com/baldursgate3/mods/2582
